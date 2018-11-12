@@ -10,27 +10,27 @@
 
 ## 简介
 
-极低成本，最简系统的控制板
+极低成本，最简控制和采集系统
 
 ---
 
 ## 组成
 
-#### [W1子设备](https://github.com/OS-Q/W1)
+#### [W1板级设备](https://github.com/OS-Q/W1)
 
-https://github.com/OS-Q/M1.git
+板上控制，通过IO和PWM直接输出实现对外驱动控制
 
-#### [W2子设备](https://github.com/OS-Q/W2)
+#### [W2板级设备](https://github.com/OS-Q/W2)
 
-https://github.com/OS-Q/M2.git
+通信控制，通过通信协议实现设备间级联控制转换
 
-#### [W3子设备](https://github.com/OS-Q/W3)
+#### [W3板级设备](https://github.com/OS-Q/W3)
 
-https://github.com/OS-Q/M3.git
+板上采集，例如通过ADC和IIC获取板上器件数据
 
-#### [W4子设备](https://github.com/OS-Q/W4)
+#### [W4板级设备](https://github.com/OS-Q/W4)
 
-https://github.com/OS-Q/M4.git
+板外采集，例如通过串口/RS485总线获取板外数据
 
 ---
 

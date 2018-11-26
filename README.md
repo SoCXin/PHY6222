@@ -1,44 +1,55 @@
-﻿# [低成本节点](https://github.com/OS-Q/M1) 
+﻿# [M1:低成本](https://github.com/OS-Q/M1) 
 
-最低级控制节点，接受外部控制的逻辑功能设备，属于Q1系统子集
+低成本控制节点，用于简单逻辑控制
 
 [![sites](OS-Q/OS-Q.png)](http://www.OS-Q.com)
 
-#### 更多关于：[Q1控制系统](https://github.com/OS-Q/Q1) 可访问 www.OS-Q.com
+
+#### 更高性能：[M3节点](https://github.com/OS-Q/M3)
+
+#### 高性价比：[M2节点](https://github.com/OS-Q/M1)
+
+### 控制节点：[Q1](https://github.com/OS-Q/Q1)
+
+### 系统构建：[OS-Q](https://github.com/OS-Q/OS-Q)
 
 ---
 
-## 简介
+## [描述](https://github.com/OS-Q/M1/wiki) 
 
-极低成本，最简控制和采集系统
+极低成本，最简控制，完成数据的采集和消费
 
-本工程内包括和上级进行串口通信的相关共用组件
+#### common
 
-- tlv 数据组帧格式
+包括的公用资源
+
+- tlv  数据组帧格式
 
 - CRC16 数据完整校验
 
 ---
 
-## 组成硬件设备
+## 硬件单元
 
-#### [W1板级设备](https://github.com/OS-Q/W1)
+#### [W1芯级设备](https://github.com/OS-Q/W1)
 
-板上控制，单板控制，通过IO和PWM直接输出实现对外驱动控制
+基于新塘N76E003单片机，提供丰富的板级支持和控制方案
 
-#### [W2板级设备](https://github.com/OS-Q/W2)
+#### [W2芯级设备](https://github.com/OS-Q/W2)
 
-通信控制，多板拼接，通过通信协议实现设备间级联控制转换
+基于WCH的CH55X SOC，提供具有USB通信能力的控制方案
 
-#### [W3板级设备](https://github.com/OS-Q/W3)
+#### [W3芯级设备](https://github.com/OS-Q/W3)
 
-板上采集，单板采集，例如通过ADC和IIC获取板上器件数据
+基于ST的STM8单片机，提供具有低功耗的控制解决方案
 
-#### [W4板级设备](https://github.com/OS-Q/W4)
+#### [W4芯级设备](https://github.com/OS-Q/W4)
 
-板外采集，多板采集，例如通过串口/RS485总线获取板外数据
+基于arduino开发软硬件平台的控制方案
 
 ---
+
+###  锻造最美之器
 
 ###  www.OS-Q.com    |     qitas@qitas.cn
 

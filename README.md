@@ -2,35 +2,34 @@
 
 [![sites](OS-Q/OS-Q.png)](http://www.OS-Q.com)
 
-低成本控制节点，实现对下的编程控制和对上的通信
+对下程控/对上通信的低成本控制节点
 
-#### 更高性能：[M3](https://github.com/OS-Q/M3)
+#### 归属边缘控制：[Q1](https://github.com/OS-Q/Q1)
 
-#### 高性价比：[M2](https://github.com/OS-Q/M2)
-
-#### 边缘控制：[Q1](https://github.com/OS-Q/Q1)
-
-#### 系统宏观：[OS-Q](https://github.com/OS-Q/OS-Q)
+#### 关于系统架构：[OS-Q](https://github.com/OS-Q/OS-Q)
 
 ---
 
-## [描述](https://github.com/OS-Q/M1/wiki) 
+## [节点描述](https://github.com/OS-Q/M1/wiki) 
 
 极低成本bit数据生成和消费节点，通过简单编程完成数据的采集转换和消费过程
 
-#### common
+### [共用资源](https://github.com/OS-Q/M1/wiki/src) 
 
-包括8051内核和低性能设备的公用资源
+#### software
+
+包括8051内核和低性能设备的通信协议
 
 - tlv 数据组帧协议
 
 - CRC 数据校验协议
 
+
 ---
 
-## [组成平台](https://github.com/OS-Q/M1/wiki/index) 
+边缘设备命名规则：体系 Q[1,4] > 节点 M[1,12] > 平台 W[1,52] > 设备 D[1,365]。
 
-基于8位单片机的极低成本BOM产品方案
+## [包含平台](https://github.com/OS-Q/M1/wiki/index) 
 
 #### W1:[N76E平台](https://github.com/OS-Q/W1)
 
@@ -50,7 +49,16 @@ TI增强8051内核无线通信SOC
 
 ---
 
-###  Q redefined the scope of operation system
+## [同级节点](https://github.com/OS-Q/M1/wiki/index)
 
-###  www.OS-Q.com   by:   qitas@qitas.cn
+#### 更高性能：[M3](https://github.com/OS-Q/M3)
+
+#### 高性价比：[M2](https://github.com/OS-Q/M2)
+
+
+---
+
+###  [Q redefined the scope of operation system](http://www.OS-Q.com)
+###  qitas@qitas.cn
+#### 2018-11-27
 

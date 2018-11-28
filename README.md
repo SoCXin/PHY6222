@@ -1,56 +1,54 @@
-﻿# M1:[低成本控制](https://github.com/OS-Q/M1) 
+﻿# M1:[离线控制](https://github.com/OS-Q/M1) 
 
 [![sites](OS-Q/OS-Q.png)](http://www.OS-Q.com)
 
-低成本控制节点，实现对下的编程控制和对上的通信
-
-#### 更高性能：[M3](https://github.com/OS-Q/M3)
-
-#### 高性价比：[M2](https://github.com/OS-Q/M2)
+离线控制节点，编程完成后不再接收控制指令
 
 #### 边缘控制：[Q1](https://github.com/OS-Q/Q1)
 
-#### 系统宏观：[OS-Q](https://github.com/OS-Q/OS-Q)
+#### 系统架构：[OS-Q](https://github.com/OS-Q/OS-Q)
+
+
+## [节点描述](https://github.com/OS-Q/M1/wiki) 
+
+离线控制节点，通过编程处理简单逻辑，不向上反馈信息接收后续指令，直接独立完成控制处理
+
+### [共用资源](https://github.com/OS-Q/M1/wiki/src) 
+
+#### 控制阈值
 
 ---
 
-## [描述](https://github.com/OS-Q/M1/wiki) 
+边缘设备命名规则：体系 Q[1,4] > 节点 M[1,12] > 平台 W[1,52] > 设备 D[1,365]。
 
-极低成本bit数据生成和消费节点，通过简单编程完成数据的采集转换和消费过程
+## [包含平台](https://github.com/OS-Q/M1/wiki/index) 
 
-#### common
+#### W1:[低成本平台](https://github.com/OS-Q/W1)
 
-包括8051内核和低性能设备的公用资源
+基于低成本方案提供丰富的离线控制方案
 
-- tlv 数据组帧协议
+#### W2:[性价比平台](https://github.com/OS-Q/W2)
 
-- CRC 数据校验协议
+基于广泛应用的平台提供快速实现的方案
 
----
+#### W3:[高性能平台](https://github.com/OS-Q/W3)
 
-## [组成平台](https://github.com/OS-Q/M1/wiki/index) 
+基于各种高性能处理平台完成对应控制
 
-基于8位单片机的极低成本BOM产品方案
+#### W4:[专用化平台](https://github.com/OS-Q/W4)
 
-#### W1:[N76E平台](https://github.com/OS-Q/W1)
+基于各种专用设备完成专用领域的控制
 
-新塘N76E003单片机提供丰富全面的低价控制方案
 
-#### W2:[CH55平台](https://github.com/OS-Q/W2)
+## [同级节点](https://github.com/OS-Q/M1/wiki/index)
 
-WCH CH55X平台提供USB通信能力的控制方案
+#### M2:[协同控制](https://github.com/OS-Q/M2)
 
-#### W3:[STM8平台](https://github.com/OS-Q/W3)
+#### M3:[无线控制](https://github.com/OS-Q/M3)
 
-STM8提供了大量丰富的产品解决方案
-
-#### W4:[CC25平台](https://github.com/OS-Q/W4)
-
-TI增强8051内核无线通信SOC
 
 ---
 
-###  Q redefined the scope of operation system
-
-###  www.OS-Q.com   by:   qitas@qitas.cn
-
+###  [Q redefined the scope of operation system](http://www.OS-Q.com)
+###  qitas@qitas.cn
+###  2018-11-28

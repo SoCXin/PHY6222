@@ -1,0 +1,35 @@
+{
+    "type":"SoC",
+    "name":"PHY6222",
+    "title": "phyplus PHY6222 SoC",
+    "description":"phyplus BLE SoC",
+    "Core": {
+        "CoreNum": 1,
+        "Core":"Cortex-M0",
+        "Fmax":96,
+        "DMIPS": 120,
+        "CoreMark": 360
+    },
+    "manufacturer": {
+        "vendor":"phyplusinc",
+        "homepage":"http://www.phyplusinc.com/"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SoCXin/PHY6222.git"
+    },
+    "version":"1.0.0",
+    "series":["PHY6222"],
+    "package":["QFN32"],
+    "peripheral": ["BLE","Audio","SDIO","UART","SPI","IIC"],
+    "ESD": {
+        "HBM": 2000,
+        "CDM": 500
+    },
+    "keywords": [
+        "Cortex-M0",
+        "phyplus",
+        "BLE","ADC","ECC","AES","UART","SPI","IIC",
+        "3.6V","1.8V"
+    ]
+}

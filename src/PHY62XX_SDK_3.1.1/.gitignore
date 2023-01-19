@@ -30,7 +30,7 @@ buildlog_*.txt
 ER_IROM*
 JUMP_TABLE
 RTE_Components.h
-*.lib
+# *.lib
 !/components/ethermind/lib/meshlibs/phyos/keil/*.lib
 
 # ignor folder

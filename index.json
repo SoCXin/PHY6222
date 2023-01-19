@@ -19,8 +19,8 @@
         "url": "https://github.com/SoCXin/PHY6222.git"
     },
     "version":"1.0.0",
-    "series":["PHY6222"],
-    "package":["QFN32"],
+    "series":["PHY6222","PHY6252"],
+    "package":["QFN32","SSOP24"],
     "peripheral": ["BLE","Audio","SDIO","UART","SPI","IIC"],
     "ESD": {
         "HBM": 2000,
